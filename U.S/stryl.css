@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    color: rgb(239, 239, 230);
     background-color: rgb(60, 18, 150);
     padding: 20px;
     height: 100px;
@@ -28,18 +29,19 @@ button {
     height: 30px;
     border-radius: 20px;
     color: white; 
+    cursor: pointer;
+    transition: background 0.3s;
     
 }
 
-
-
-
+button:hover {
+    background-color: rgb(21, 194, 217);
+  }
 
 .botoes-container {
     justify-content: center;
     display: flex   ;
-    gap: 60px; /* Espaçamento entre os botões */
-    /* Centralizar os botões */
+    gap: 60px; 
     
 }
 
@@ -47,6 +49,9 @@ button {
     position: absolute;
     right: 50px;
     width: 50px;
+    display: flex;
+    gap: 30px;
+    width: 100px;
 }
 
 
