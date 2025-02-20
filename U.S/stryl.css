@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #000957;
+    background-color: #3674B5;
 }
 
 .pt-um {
@@ -12,10 +12,11 @@ body {
     align-items: center;
     gap: 30px;
     color: rgb(239, 239, 230);
-    background-color: rgb(60, 18, 150);
+    background-color: #578FCA;
     padding: 20px;
     height: 100px;
     border-radius: 30px;
+    
 }
 
 body {
@@ -50,7 +51,7 @@ button:hover {
     right: 50px;
     width: 50px;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     width: 100px;
 }
 
