@@ -4,26 +4,21 @@
 }
 
 body {
-    background-color: #9ACBD0;
+    background-color: #000957;
 }
 
 .pt-um {
     display: flex;
     align-items: center;
-    gap: 20px;
-    background-color: wheat;
-    margin: 20px;
-    width: 20px;
-    
+    gap: 30px;
+    background-color: rgb(60, 18, 150);
+    padding: 20px;
+    height: 100px;
+    border-radius: 30px;
 }
 
-ul {
-    list-style: none;
-}
-
-.elementos {
-    background-color: yellowgreen;
-    justify-content: space-between;
+body {
+    background-color: #9ACBD0;
 }
 
 button {
@@ -31,4 +26,28 @@ button {
     border: 0px;
     width: 70px;
     height: 30px;
+    border-radius: 20px;
+    color: white; 
+    
 }
+
+
+
+
+
+.botoes-container {
+    justify-content: center;
+    display: flex   ;
+    gap: 60px; /* Espaçamento entre os botões */
+    /* Centralizar os botões */
+    
+}
+
+.insta-logo {  
+    position: absolute;
+    right: 50px;
+    width: 50px;
+}
+
+
+ 
